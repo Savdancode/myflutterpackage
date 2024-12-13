@@ -15,7 +15,7 @@ class _ShadowContainerState extends State<ShadowContainer> {
       height: 200,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
-        color: Colors.red,
+        color: Colors.red.withAlpha(100),
         boxShadow: const [
           BoxShadow(
             blurRadius: 1,
